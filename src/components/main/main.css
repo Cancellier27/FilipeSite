@@ -1,0 +1,48 @@
+.HomePage {
+  height: 100%;
+  display: grid;
+  grid-template-areas: 
+  "text code"
+  "text2 code";
+}
+
+.textMainHome {
+  grid-area: text;
+  text-align: left;
+}
+
+.textMainHome p {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  margin-top: 80px;;
+  margin-left: 100px;
+  color: lightgray;
+  font-size: 1.4em; 
+}
+
+.helloWorld {
+  grid-area: code;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.helloWorld img {
+  box-shadow: 10px 10px 8px #2d3a4d;
+}
+
+@media (max-width: 800px) {
+  .HomePage {
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "text"
+    "code";
+  }
+
+  .textMainHome p {
+    margin-left: 30px;
+  }
+}  

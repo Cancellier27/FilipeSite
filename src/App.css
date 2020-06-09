@@ -6,7 +6,7 @@ body {
 .App {
   height: 100vh;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #575760;
 
   display: flex;
   flex-direction: column;

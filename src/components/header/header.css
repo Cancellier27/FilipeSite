@@ -1,4 +1,6 @@
 header {
+  height: 110px;
+
   font-family: 'Roboto Slab', serif;
   color: lightgray;
 
@@ -53,3 +55,13 @@ header {
   height: 3px;
   background-color: cyan;
 }
+
+@media (max-width: 800px) {
+  .filipe {
+    display: none;
+  }
+
+  .iconF { 
+    width: 20px;
+  }
+} 

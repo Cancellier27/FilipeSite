@@ -49,3 +49,15 @@ footer {
 .navBarFooter i {
   transform: scale(2.5);
 }
+
+@media (max-width: 800px) {
+  .date { 
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+
+} 

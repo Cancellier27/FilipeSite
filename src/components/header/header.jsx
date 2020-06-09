@@ -8,7 +8,7 @@ const Header = () => {
         <span className="icon">
           <i className="fab fa-foursquare"></i>
         </span>
-        <h1>FILIPE</h1>
+        <h1 className="filipe">FILIPE</h1>
       </div>
 
 
