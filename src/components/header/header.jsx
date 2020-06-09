@@ -15,7 +15,7 @@ const Header = () => {
       <ul className="navBar">
         <li>
           <a href="/">Home</a>
-          <div className="selected"></div>
+          <div className="selectedHeader"></div>
         </li>
         <li>
           <a href="/">About</a>
