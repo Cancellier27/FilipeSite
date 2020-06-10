@@ -3,15 +3,16 @@
 }
 
 .projectsContainer {
-  height: 100vmin;
-  display: grid;
-  grid-template-rows: 130px auto;
-  
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .titleProjects {
   border-bottom: 3px #383838 solid;
-  margin: 0 50px;
+  margin: 5px 50px;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -26,7 +27,7 @@
   margin: 0;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   align-self: start;
   gap: 20px;
   padding: 20px;

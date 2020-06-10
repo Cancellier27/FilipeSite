@@ -39,6 +39,11 @@
 }
 /* end of the rotation part */
 
+.mainCard {
+  justify-self: center;
+}
+
+
 .card-front {
   overflow: hidden;
   box-sizing: border-box;

@@ -20,7 +20,6 @@ const Projects = () => (
       ProjectDescription={descriptions.HashGameDescription}
       ProjectLink={links.hashGameLink}
       />
-
     </div>
 
   </main>

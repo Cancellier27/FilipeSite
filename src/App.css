@@ -1,16 +1,16 @@
 body {
+  height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #575760;
 }
 
 .App {
+  height: 100vh;
   text-align: center;
-  background-color: #575760;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 110px 1fr 100px;
 }
 
 
