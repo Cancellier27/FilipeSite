@@ -10,7 +10,7 @@
 }
 
 .titleProjects {
-  border-bottom: 3px rgb(56, 56, 56) solid;
+  border-bottom: 3px #383838 solid;
   margin: 0 50px;
   display: flex;
   align-items: center;

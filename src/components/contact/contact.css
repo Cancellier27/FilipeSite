@@ -1,0 +1,85 @@
+.ContactContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+}
+
+.formContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.formItSelf {
+  width: 60%;
+}
+
+.divName,
+.divEmailPhone {
+  padding: 0;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.divEmailPhone input {
+  width: 50%;
+}
+
+.phoneInput {
+  margin-left: 5px;
+}
+
+.divName input {
+  width: 100%;
+}
+
+input {
+  height: 40px;
+  font-size: 1em;
+  /* box-shadow: 1px 1px 1px #999; */
+}
+
+textarea{
+  resize: none;
+  width: 100%;
+  height: 160px;
+  font-size: 1.3em;
+  margin-bottom: 6px;
+}
+
+button {
+  margin: 0;
+  float: left;
+  text-decoration: none;
+  background: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: aqua 2px solid;
+  color: lightgray;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background: aqua;
+  color: #3D3D41;
+}
+
+button:active {
+  background: rgb(0, 168, 168);
+  color: #3D3D41;
+}
+
+.contactText {
+  border-left: solid #383838 3px;
+  width: 50%;
+}
+
+.pTextContact {
+  font-size: 1.3em;
+  color: lightgray;
+  text-align: left;
+  padding-left: 50px;
+}
