@@ -1,0 +1,96 @@
+/* Rotation of the card */
+.mainCard {
+  position: relative;
+  width: 250px;
+  height: 300px;
+}
+
+.theCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.theCard:hover {
+  transform: rotateY(180deg);
+}
+
+.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  backface-visibility: hidden;
+  background: #212121;
+  color: lightgray;
+}
+
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  backface-visibility: hidden;
+  background: lightgray;
+  color: #212121;
+  transform: rotateY(180deg);
+}
+/* end of the rotation part */
+
+.card-front {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-front img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.cardFooter {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.card-back {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+
+.projectDescription {
+  margin: 0;
+  padding: 15px;
+  height: 250px;
+  width: 100%;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.linkToGitHubProject {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 5px 25px;
+  border-radius: 10px;
+  color: #fff;
+  background: #0084ff;
+}
+
+.linkToGitHubProject:hover {
+  border: white 2px solid;
+}
+
+.linkToGitHubProject:active {
+  background: #0061bd;
+}
