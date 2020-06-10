@@ -23,7 +23,7 @@ const Contact = () => (
       <p className="pTextContact">
         Hello, hope you have enjoyed my work
         <br /><br />
-        If you have any questions about me, you can send me a message on the left,
+        If you have any questions about me, you can send me a message,
         <br />
         and I'll try to answer you as soon as posible.
         <br /><br />

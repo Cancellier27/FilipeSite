@@ -83,3 +83,36 @@ button:active {
   text-align: left;
   padding-left: 50px;
 }
+
+@media (max-width: 1200px) {
+  .formItSelf {
+    width: 100%;
+  }
+
+  .contactText {
+    border-left: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .formContainer {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .formItSelf {
+    width: 100%;
+  }
+
+  .contactText {
+    width: 100%;
+  }
+
+  .ContactContainer {
+    flex-direction: column;
+  }
+
+  .pTextContact {
+    padding-left: 10px;
+  }
+}
