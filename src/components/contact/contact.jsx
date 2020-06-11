@@ -13,7 +13,7 @@ const Contact = () => (
         <input type="text" placeholder="Phone" className="phoneInput" />  
         </div>
         <div>
-          <textarea type="text" placeholder="Contact Subject" maxlength="400" />
+          <textarea type="text" placeholder="Contact Subject" maxLength="400" />
         </div>
         <button>Submit</button>
       </form>
