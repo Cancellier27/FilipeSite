@@ -6,6 +6,7 @@ const Header = () => {
 
   function homeClass() {
     const pagePath = window.location.pathname
+    console.log(window.location.origin)
     return pagePath === "/" ? "selectedHeader" : ""
   }
   function aboutClass() {
@@ -38,15 +39,15 @@ const Header = () => {
           <div className={homeClass()}></div>
         </li>
         <li>
-          <a href="http://localhost:3000/about" >About</a>
+          <a href={`${window.location.origin}/about`} >About</a>
           <div className={aboutClass()}></div>
         </li>
         <li>
-          <a href="http://localhost:3000/projects" >Projects</a>
+          <a href={`${window.location.origin}/projects`} >Projects</a>
           <div className={projectsClass()}></div>
         </li>
         <li>
-          <a href="http://localhost:3000/contact">Contact</a>
+          <a href={`${window.location.origin}/contact`}>Contact</a>
           <div className={contactClass()}></div>
         </li>
       </ul>
