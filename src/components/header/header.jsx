@@ -28,7 +28,7 @@ const Header = () => {
         <span className="icon">
           <i className="fab fa-foursquare"></i>
         </span>
-        <h1 className="filipe">FILIPE</h1>
+        <h1><a href="/" className="filipe">FILIPE</a></h1>
       </div>
 
 

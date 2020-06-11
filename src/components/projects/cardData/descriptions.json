@@ -1,3 +1,8 @@
 {
-  "HashGameDescription": "A simply game made with pure Javascript"
+  "HashGameDescription": "A simply game made with pure Javascript",
+  "ForcaDescription": "A simply game made with pure Javascript",
+  "DoomFireDescription": "An algorithm that makes the fire of DooM game in pixel-art",
+  "TimerDescription": "A Timer made using React. To help understand how react components works",
+  "EcoletaSiteDescription": "An interface created with React to collect recyclable material. Done in conjunction with the Next Level Week course in June 2020.",
+  "PersonalSiteDescription": "This Site that was create for learn more about React and to make an portifolio with all my projects."
 }

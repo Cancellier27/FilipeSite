@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './card.css'
 
 const Card = ({ProjectName,  ProjectLink, ProjectDescription, ProjectImage}) => (
@@ -17,5 +18,16 @@ const Card = ({ProjectName,  ProjectLink, ProjectDescription, ProjectImage}) => 
     </div>
   </div>
 )
+
+Card.propTypes = {
+  ProjectName: PropTypes.string.isRequired,
+  ProjectLink: PropTypes.string.isRequired,
+  ProjectDescription: PropTypes.string.isRequired,
+  ProjectImage: PropTypes.string.isRequired
+}
+
+Card.defaultProps = {
+  ProjectName: "Not found"
+}
 
 export default Card
