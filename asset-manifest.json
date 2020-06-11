@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/FilipeSite/static/css/main.f0dbc7cb.chunk.css",
+    "main.js": "/FilipeSite/static/js/main.e6005168.chunk.js",
+    "main.js.map": "/FilipeSite/static/js/main.e6005168.chunk.js.map",
+    "runtime-main.js": "/FilipeSite/static/js/runtime-main.a87e3311.js",
+    "runtime-main.js.map": "/FilipeSite/static/js/runtime-main.a87e3311.js.map",
+    "static/js/2.7843c423.chunk.js": "/FilipeSite/static/js/2.7843c423.chunk.js",
+    "static/js/2.7843c423.chunk.js.map": "/FilipeSite/static/js/2.7843c423.chunk.js.map",
+    "index.html": "/FilipeSite/index.html",
+    "precache-manifest.01fe69c48fe6c79c50f96d58bd641ccf.js": "/FilipeSite/precache-manifest.01fe69c48fe6c79c50f96d58bd641ccf.js",
+    "service-worker.js": "/FilipeSite/service-worker.js",
+    "static/css/main.f0dbc7cb.chunk.css.map": "/FilipeSite/static/css/main.f0dbc7cb.chunk.css.map",
+    "static/js/2.7843c423.chunk.js.LICENSE.txt": "/FilipeSite/static/js/2.7843c423.chunk.js.LICENSE.txt",
+    "static/media/DoomFire.PNG": "/FilipeSite/static/media/DoomFire.b28ec7b1.PNG",
+    "static/media/EcoletaSite.PNG": "/FilipeSite/static/media/EcoletaSite.1ced5318.PNG",
+    "static/media/FilipeCancellier.png": "/FilipeSite/static/media/FilipeCancellier.a23d8781.png",
+    "static/media/Forca.PNG": "/FilipeSite/static/media/Forca.fe23c66a.PNG",
+    "static/media/PersonalSite.png": "/FilipeSite/static/media/PersonalSite.13306c3d.png",
+    "static/media/helloWorld.png": "/FilipeSite/static/media/helloWorld.97ca7a22.png",
+    "static/media/jogoDaVelha.PNG": "/FilipeSite/static/media/jogoDaVelha.0471dcd8.PNG",
+    "static/media/timerReact.PNG": "/FilipeSite/static/media/timerReact.156e0b25.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a87e3311.js",
+    "static/js/2.7843c423.chunk.js",
+    "static/css/main.f0dbc7cb.chunk.css",
+    "static/js/main.e6005168.chunk.js"
+  ]
+}
