@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './header.css'
 
@@ -31,13 +31,7 @@ const Header = () => {
         </span>
         <h1><a href="/" className="filipe">FILIPE</a></h1>
       </div>
-
-
-      <ul className="navBar">
-        <li>
-          <a href="/">Home</a>
-          <div className={homeClass()}></div>
-        </li>
+      <ul>
         <li>
           <a href={`${window.location.origin}/about`} >About</a>
           <div className={aboutClass()}></div>

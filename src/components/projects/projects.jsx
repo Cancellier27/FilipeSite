@@ -8,6 +8,7 @@ import TimerReact from '../../images/timerReact.PNG'
 import DoomFire from '../../images/DoomFire.PNG'
 import EcoletaSite from '../../images/EcoletaSite.PNG'
 import PersonalSite from '../../images/PersonalSite.png'
+import GithubApp from '../../images/githubApp.PNG'
 
 import descriptions from './cardData/descriptions.json'
 import links from './cardData/links.json'
@@ -54,6 +55,12 @@ const Projects = () => (
       ProjectName="This Site"
       ProjectDescription={descriptions.PersonalSiteDescription}
       ProjectLink={links.PersonalSiteLink}
+      />
+      <Card 
+      ProjectImage={GithubApp}
+      ProjectName="Github Search App"
+      ProjectDescription={descriptions.GithubAppDescription}
+      ProjectLink={links.GithubAppLink}
       />
     </div>
 
