@@ -31,7 +31,11 @@ const Header = () => {
         </span>
         <h1><a href="/" className="filipe">FILIPE</a></h1>
       </div>
-      <ul>
+      <ul className="navBar">
+        <li>
+          <a href={`${window.location.origin}/`} >Home</a>
+          <div className={homeClass()}></div>
+        </li>
         <li>
           <a href={`${window.location.origin}/about`} >About</a>
           <div className={aboutClass()}></div>

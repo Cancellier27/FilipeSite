@@ -58,7 +58,7 @@ const Projects = () => (
       />
       <Card 
       ProjectImage={GithubApp}
-      ProjectName="Github Search App"
+      ProjectName="Git Search App"
       ProjectDescription={descriptions.GithubAppDescription}
       ProjectLink={links.GithubAppLink}
       />
