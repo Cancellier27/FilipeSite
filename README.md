@@ -15,18 +15,9 @@
 
 </p>
 
-## :computer: Web
-
 <h1 align="center">
     <img alt="Web" src=".github/logo.png" width="650px">
 </h1>
-
-<!-- ## :iphone: Mobile
-
-<h1 align="center">
-    <img alt="Mobile Home" src=".github/Home.png" width="300px">
-    <img alt="Mobile Detail" src=".github/Detail.svg" width="300px">
-</h1> -->
 
 ## :bookmark: About
 
