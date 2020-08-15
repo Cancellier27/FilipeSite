@@ -15,9 +15,12 @@
 
 </p>
 
+## :computer: Web
+
 <h1 align="center">
-    <img alt="Web" src=".github/logo.png" width="650px">
+    <img alt="Web" src="./src/images/PersonalSite.png" width="650px">
 </h1>
+
 
 ## :bookmark: About
 
@@ -38,6 +41,7 @@ This project was made with the following technologies:
 
   - It's **necessary** **[Node.js](https://nodejs.org/en/)**
   - You, **need** a package manager like **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
+  <!-- - Then, it's **essencial** install **[Expo](https://expo.io/)** -->
 
 ## :memo: License
 
