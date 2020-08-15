@@ -18,7 +18,7 @@
 ## :computer: Web
 
 <h1 align="center">
-    <img alt="Web" src=".github/image.png" width="650px">
+    <img alt="Web" src=".github/appImage.png" width="650px">
 </h1>
 
 
