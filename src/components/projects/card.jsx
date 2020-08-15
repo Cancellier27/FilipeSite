@@ -1,8 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import './card.css'
+/* eslint-disable linebreak-style */
+import React from 'react';
+import PropTypes from 'prop-types';
+import './card.css';
 
-const Card = ({ProjectName,  ProjectLink, ProjectDescription, ProjectImage}) => (
+const Card = ({
+  ProjectName, ProjectLink, ProjectDescription, ProjectImage,
+}) => (
   <div className="mainCard">
     <div className="theCard">
       <div className="card-front">
@@ -17,17 +20,17 @@ const Card = ({ProjectName,  ProjectLink, ProjectDescription, ProjectImage}) => 
       </div>
     </div>
   </div>
-)
+);
 
 Card.propTypes = {
   ProjectName: PropTypes.string.isRequired,
   ProjectLink: PropTypes.string.isRequired,
   ProjectDescription: PropTypes.string.isRequired,
-  ProjectImage: PropTypes.string.isRequired
-}
+  ProjectImage: PropTypes.string.isRequired,
+};
 
 Card.defaultProps = {
-  ProjectName: "Not found"
-}
+  ProjectName: 'Not found',
+};
 
-export default Card
+export default Card;
