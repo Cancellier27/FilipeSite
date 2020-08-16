@@ -1,0 +1,36 @@
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+:root {
+  --headerColor: #3D3D41;
+  --footerColor: #29292E;
+
+  --primary: #2A7AE4;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+
+  --headerHeight: 110px;
+  --footerHeight: 150px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #575760;
+
+  justify-content: space-between;
+}
+
+html,
+body {
+  margin: 0; 
+  padding: 0;
+}

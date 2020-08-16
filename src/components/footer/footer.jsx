@@ -11,6 +11,11 @@ const Footer = () => {
         <h3>{dayDate.toDateString()}</h3>
       </div>
 
+      <div className="creator">
+        <p> Created by Filipe C. Costa </p>
+        <p> 2020 </p>
+      </div>
+
       <div className="socialMediaFooter">
         <h3>Follow me:</h3>
         <ul className="navBarFooter">

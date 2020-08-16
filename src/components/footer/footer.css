@@ -1,5 +1,5 @@
 footer {
-  height: 100px;
+  height: var(--footerHeight);
   background-color: #29292E;
   color: lightgray;
 
@@ -50,8 +50,21 @@ footer {
   transform: scale(2.5);
 }
 
+.creator {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creator p {
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 800px) {
-  .date { 
+  .date, 
+  .creator { 
     display: none;
   }
 

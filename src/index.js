@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import PageDefault from './pageDefault';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PageDefault />
   </React.StrictMode>,
   document.getElementById('root'),
 );

@@ -1,5 +1,4 @@
 .HomePage {
-  height: 100%;
   display: grid;
   grid-template-areas: 
   "text code"
@@ -35,7 +34,6 @@
 
 @media (max-width: 800px) {
   .HomePage {
-    height: 100%;
     display: grid;
     grid-template-areas: 
     "text"
