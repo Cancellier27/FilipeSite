@@ -43,7 +43,6 @@
   justify-self: center;
 }
 
-
 .card-front {
   overflow: hidden;
   box-sizing: border-box;
@@ -62,6 +61,7 @@
   margin: 0;
   padding: 0;
   height: 50px;
+  text-align: center;
 }
 
 .card-back {
@@ -78,6 +78,11 @@
   width: 100%;
   font-size: 1.1em;
   text-align: left;
+}
+
+.gitHutButtonContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .linkToGitHubProject {

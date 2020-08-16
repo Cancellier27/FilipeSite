@@ -14,7 +14,7 @@ const Card = ({
       </div>
       <div className="card-back">
         <p className="projectDescription">{ProjectDescription}</p>
-        <div>
+        <div className="gitHutButtonContainer">
           <a href={ProjectLink} className="linkToGitHubProject">Link</a>
         </div>
       </div>
