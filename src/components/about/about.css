@@ -1,6 +1,5 @@
 .aboutPage {
-  height: 100%;
-   
+  height: calc(100vh - var(--footerHeight) - var(--headerHeight));
   display: grid;
   grid-template-areas: "image text";
 

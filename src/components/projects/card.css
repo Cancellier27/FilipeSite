@@ -48,6 +48,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  box-shadow: 10px 10px 7px #39414e;
 }
 
 .card-front img {
@@ -69,6 +70,7 @@
   flex-direction: column;
   align-content: center;
   justify-items: center;
+  box-shadow: 10px 10px 7px #39414e;
 }
 
 .projectDescription {
