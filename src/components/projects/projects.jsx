@@ -10,6 +10,7 @@ import DoomFire from '../../images/DoomFire.PNG';
 import EcoletaSite from '../../images/EcoletaSite.PNG';
 import PersonalSite from '../../images/PersonalSite.png';
 import GithubApp from '../../images/githubApp.PNG';
+import Fiflix from '../../images/fiflix.png'
 
 import descriptions from './cardData/descriptions.json';
 import links from './cardData/links.json';
@@ -62,6 +63,12 @@ const Projects = () => (
         ProjectName="Git Search App"
         ProjectDescription={descriptions.GithubAppDescription}
         ProjectLink={links.GithubAppLink}
+      />
+      <Card
+        ProjectImage={Fiflix}
+        ProjectName="FIFLIX App"
+        ProjectDescription={descriptions.FiflixAppDescription}
+        ProjectLink={links.FiflixAppLink}
       />
     </div>
 

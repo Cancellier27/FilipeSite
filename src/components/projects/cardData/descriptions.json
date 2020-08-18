@@ -5,5 +5,6 @@
   "TimerDescription": "A Timer made using React. To help understand how react components works",
   "EcoletaSiteDescription": "An interface created with React to collect recyclable material. Done in conjunction with the Next Level Week course in June 2020.",
   "PersonalSiteDescription": "This Site that was create for learn more about React and to make an portifolio with all my projects.",
-  "GithubAppDescription": "A search aplication using the free api of GitHub, to find users and theirs repositories and starred repositories."
+  "GithubAppDescription": "A search aplication using the free api of GitHub, to find users and theirs repositories and starred repositories.",
+  "FiflixAppDescription": "A web site created having with reference Netflix. Using the back end and front end servers to provide data do all site"
 }
