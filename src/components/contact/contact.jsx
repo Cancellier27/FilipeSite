@@ -5,7 +5,7 @@ import './contact.css';
 const Contact = () => (
   <main className="ContactContainer">
     <div className="formContainer">
-      <form action="submit" className="formItSelf">
+      <form className="formItSelf">
         <div className="divName">
           <input type="text" placeholder="Name" />
         </div>
