@@ -15,6 +15,7 @@ const Routes = () => (
       <Route component={About} path="/about" />
       <Route component={Projects} path="/projects" />
       <Route component={Contact} path="/contact" />
+      <Route component={() => <h2>Page not found: error 404</h2>} />
 
     </Switch>
   </BrowserRouter>

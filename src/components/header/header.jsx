@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import './header.css';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+function Header() {
   function homeClass() {
     const pagePath = window.location.pathname;
-    console.log(window.location.origin);
     return pagePath === '/' ? 'selectedHeader' : '';
   }
   function aboutClass() {
