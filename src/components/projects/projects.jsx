@@ -3,14 +3,14 @@ import React from 'react';
 import './projects.css';
 import Card from './card';
 
-import JogoDaVelha from '../../images/jogoDaVelha.PNG';
-import Forca from '../../images/Forca.PNG';
-import TimerReact from '../../images/timerReact.PNG';
-import DoomFire from '../../images/DoomFire.PNG';
-import EcoletaSite from '../../images/EcoletaSite.PNG';
-import PersonalSite from '../../images/PersonalSite.png';
-import GithubApp from '../../images/githubApp.PNG';
-import Fiflix from '../../images/fiflix.png'
+import JogoDaVelha from '../../assets/images/jogoDaVelha.PNG';
+import Forca from '../../assets/images/Forca.PNG';
+import TimerReact from '../../assets/images/timerReact.PNG';
+import DoomFire from '../../assets/images/DoomFire.PNG';
+import EcoletaSite from '../../assets/images/EcoletaSite.PNG';
+import PersonalSite from '../../assets/images/PersonalSite.png';
+import GithubApp from '../../assets/images/githubApp.PNG';
+import Fiflix from '../../assets/images/fiflix.png';
 
 import descriptions from './cardData/descriptions.json';
 import links from './cardData/links.json';

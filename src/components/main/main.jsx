@@ -2,7 +2,7 @@
 import React from 'react';
 import './main.css';
 
-import helloWorld from '../../images/helloWorld.png';
+import helloWorld from '../../assets/images/helloWorld.png';
 
 const Main = () => (
   <main className="HomePage">

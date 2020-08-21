@@ -2,7 +2,7 @@
 import React from 'react';
 import './about.css';
 
-import Filipe from '../../images/FilipeCancellier.png';
+import Filipe from '../../assets/images/FilipeCancellier.png';
 
 const About = () => (
   <main className="aboutPage">
