@@ -6,12 +6,12 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Routes from './routes';
 
-function PageDefault() {
+function PageDefault({ children }) {
   return (
     <>
       <Header />
-
-      <Routes />
+      
+        {children}
 
       <Footer />
     </>

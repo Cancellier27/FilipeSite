@@ -14,65 +14,71 @@ import Fiflix from '../../assets/images/fiflix.png';
 
 import descriptions from './cardData/descriptions.json';
 import links from './cardData/links.json';
+import PageDefault from '../../pageDefault';
 
 const Projects = () => (
-  <main className="projectsContainer">
-    <div className="titleProjects">
-      <h2 className="textTileProjects">Here are some projects that I have made so far: </h2>
-    </div>
+  <PageDefault>
 
-    <div className="cardsPlace">
-      <Card
-        ProjectImage={JogoDaVelha}
-        ProjectName="Hash Game"
-        ProjectDescription={descriptions.HashGameDescription}
-        ProjectLink={links.hashGameLink}
-      />
-      <Card
-        ProjectImage={Forca}
-        ProjectName="Forca"
-        ProjectDescription={descriptions.ForcaDescription}
-        ProjectLink={links.ForcaLink}
-      />
-      <Card
-        ProjectImage={TimerReact}
-        ProjectName="Timer"
-        ProjectDescription={descriptions.TimerDescription}
-        ProjectLink={links.TimerLink}
-      />
-      <Card
-        ProjectImage={DoomFire}
-        ProjectName="Doom Fire"
-        ProjectDescription={descriptions.DoomFireDescription}
-        ProjectLink={links.DoomFireLink}
-      />
-      <Card
-        ProjectImage={EcoletaSite}
-        ProjectName="Ecoleta Site"
-        ProjectDescription={descriptions.EcoletaSiteDescription}
-        ProjectLink={links.EcoletaSiteLink}
-      />
-      <Card
-        ProjectImage={PersonalSite}
-        ProjectName="This Site"
-        ProjectDescription={descriptions.PersonalSiteDescription}
-        ProjectLink={links.PersonalSiteLink}
-      />
-      <Card
-        ProjectImage={GithubApp}
-        ProjectName="Git Search App"
-        ProjectDescription={descriptions.GithubAppDescription}
-        ProjectLink={links.GithubAppLink}
-      />
-      <Card
-        ProjectImage={Fiflix}
-        ProjectName="FIFLIX App"
-        ProjectDescription={descriptions.FiflixAppDescription}
-        ProjectLink={links.FiflixAppLink}
-      />
-    </div>
+    <main className="projectsContainer">
+      <div className="titleProjects">
+        <h2 className="textTileProjects">Here are some projects that I have made so far: </h2>
+      </div>
 
-  </main>
+      <div className="cardsPlace">
+        <Card
+          ProjectImage={JogoDaVelha}
+          ProjectName="Hash Game"
+          ProjectDescription={descriptions.HashGameDescription}
+          ProjectLink={links.hashGameLink}
+        />
+        <Card
+          ProjectImage={Forca}
+          ProjectName="Forca"
+          ProjectDescription={descriptions.ForcaDescription}
+          ProjectLink={links.ForcaLink}
+        />
+        <Card
+          ProjectImage={TimerReact}
+          ProjectName="Timer"
+          ProjectDescription={descriptions.TimerDescription}
+          ProjectLink={links.TimerLink}
+        />
+        <Card
+          ProjectImage={DoomFire}
+          ProjectName="Doom Fire"
+          ProjectDescription={descriptions.DoomFireDescription}
+          ProjectLink={links.DoomFireLink}
+        />
+        <Card
+          ProjectImage={EcoletaSite}
+          ProjectName="Ecoleta Site"
+          ProjectDescription={descriptions.EcoletaSiteDescription}
+          ProjectLink={links.EcoletaSiteLink}
+        />
+        <Card
+          ProjectImage={PersonalSite}
+          ProjectName="This Site"
+          ProjectDescription={descriptions.PersonalSiteDescription}
+          ProjectLink={links.PersonalSiteLink}
+        />
+        <Card
+          ProjectImage={GithubApp}
+          ProjectName="Git Search App"
+          ProjectDescription={descriptions.GithubAppDescription}
+          ProjectLink={links.GithubAppLink}
+        />
+        <Card
+          ProjectImage={Fiflix}
+          ProjectName="FIFLIX App"
+          ProjectDescription={descriptions.FiflixAppDescription}
+          ProjectLink={links.FiflixAppLink}
+        />
+      </div>
+
+    </main>
+
+  </PageDefault>
+
 );
 
 export default Projects;

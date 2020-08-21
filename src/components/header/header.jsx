@@ -27,23 +27,23 @@ function Header() {
         <span className="icon">
           <i className="fab fa-foursquare" />
         </span>
-        <h1><a href="/" className="filipe">FILIPE</a></h1>
+        <h1><Link to="/" className="filipe">FILIPE</Link></h1>
       </div>
       <ul className="navBar">
         <li>
-          <a href={`${window.location.origin}/`}>Home</a>
+          <Link to="/">Home</Link>
           <div className={homeClass()} />
         </li>
         <li>
-          <a href={`${window.location.origin}/about`}>About</a>
+          <Link to="/about">About</Link>
           <div className={aboutClass()} />
         </li>
         <li>
-          <a href={`${window.location.origin}/projects`}>Projects</a>
+          <Link to="/projects">Projects</Link>
           <div className={projectsClass()} />
         </li>
         <li>
-          <a href={`${window.location.origin}/contact`}>Contact</a>
+          <Link to="/contact">Contact</Link>
           <div className={contactClass()} />
         </li>
       </ul>
