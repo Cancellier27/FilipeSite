@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import './projects.css';
-import Card from './card';
+import Card from './card/card';
 
 import JogoDaVelha from '../../assets/images/jogoDaVelha.PNG';
 import Forca from '../../assets/images/Forca.PNG';
