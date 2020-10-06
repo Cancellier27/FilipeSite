@@ -8,7 +8,7 @@ const Contact = () => (
 
     <main className="ContactContainer">
       <div className="formContainer">
-        <form className="formItSelf">
+        {/* <form className="formItSelf">
           <div className="divName">
             <input type="text" placeholder="Name" />
           </div>
@@ -20,7 +20,22 @@ const Contact = () => (
             <textarea type="text" placeholder="Contact Subject" maxLength="400" />
           </div>
           <button type="submit">Submit</button>
-        </form>
+        </form> */}
+        <div className="contactTextRight">
+
+        <p className="pTextContact">
+          London, Maida Vale
+        </p>
+        <p className="pTextContact">
+          <strong>Phone</strong>
+          : 07787 797 939
+        </p>
+        <p className="pTextContact">
+          <strong>Email</strong>
+          : filipecancelliercosta@gmail.com
+        </p>
+        </div>
+
       </div>
 
       <div className="contactText">
@@ -30,7 +45,7 @@ const Contact = () => (
           <br />
           If you have any questions about me, you can send me a message,
           <br />
-          and I'll try to answer you as soon as posible.
+          and I'll try to answer you as soon as possible.
           <br />
           <br />
           Thank you, and have a good day!

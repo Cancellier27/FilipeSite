@@ -83,6 +83,19 @@ button:active {
   padding-left: 50px;
 }
 
+.first-letter {
+  font-size: 3em;
+}
+
+.siteLink {
+  text-decoration: none;
+  color: cyan;
+}
+
+.siteLink:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
   .formItSelf {
     width: 100%;
