@@ -20,6 +20,7 @@ const About = () => (
           <strong> Filipe Cancellier da Costa</strong>
           .
           <br />
+          
           <br />
 
           I have a graduation in Civil Engineering and I'm originally from Brazil.
