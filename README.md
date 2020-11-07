@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="300px" src=".github/iconWebDev.png">
+    <img alt="Logo" title="#logo" width="150px" src=".github/iconWebDev.png">
     <br><br>
     <b>Personal site</b> 
 </h3>
@@ -24,16 +24,14 @@
 
 ## :bookmark: About
 
-My webpage created with React.
+My first webpage created with React.
 
 ## :rocket: Tech Used
 
 This project was made with the following technologies:
 
-<!-- - [TypeScript](https://www.typescriptlang.org/) -->
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
-<!-- - [React Native](https://reactnative.dev/) -->
 
 ## :fire: How to
 
@@ -41,11 +39,21 @@ This project was made with the following technologies:
 
   - It's **necessary** **[Node.js](https://nodejs.org/en/)**
   - You, **need** a package manager like **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
-  <!-- - Then, it's **essencial** install **[Expo](https://expo.io/)** -->
 
-## :memo: License
+1. Clone the repo :
 
-This project is under MIT license. [LICENSE](LICENSE.md)
+```sh
+  $ git clone https://github.com/Cancellier27/FilipeSite
+```
+
+2. Execute the app:
+
+```sh
+  # Install de dependencies
+  $ yarn install
+  $ yarn start
+```
+
 
 ## :mailbox_with_mail: Get in touch!
 
